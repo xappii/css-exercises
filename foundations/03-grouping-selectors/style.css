@@ -2,3 +2,12 @@
     font-size: 28px;
     font-family: "Times New Roman", "Helvetica", sans-serif;
 }
+
+.left-button{
+    color: white;
+    background-color: black;
+}
+
+.right-button{
+    background-color: yellow;
+}
