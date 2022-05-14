@@ -11,17 +11,20 @@
   font-size: 14px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
+/* Following should apply to RHS button
+but font size needs to apply to both */
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+
+/* Following should apply to LHS button */
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 
 .child {
   color: red;
