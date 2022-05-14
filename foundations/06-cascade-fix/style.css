@@ -26,12 +26,14 @@ but font size needs to apply to both */
   font-weight: bold;
 } 
 
-.child {
-  color: red;
-  font-size: 14px;
-}
-
-div.text {
+/* Selects elements with class "text"*/
+.text {
   color: green;
   font-size: 22px;
+}
+
+/* Selects elements with classes "text" and "child"*/
+.text.child {
+  color: red;
+  font-size: 14px;
 }
