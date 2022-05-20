@@ -32,6 +32,8 @@ body {
 
 .content {
   background: #e3f4ff;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .button-container {
