@@ -20,6 +20,11 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* Following is mine */
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 input {
