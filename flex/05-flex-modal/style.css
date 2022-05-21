@@ -23,6 +23,8 @@ body {
   /* following is mine */
   /*not sure whether to use border box*/
   padding: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .icon {
@@ -36,6 +38,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* following is mine */
+  flex-shrink: 0;
+}
+
+/* following is mine */
+.not-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* following is mine */
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* following is mine */
+.header {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .close-button {
