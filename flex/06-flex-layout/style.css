@@ -51,6 +51,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 16px;
+  flex-shrink: 0; /*necessary?*/
 }
 
 .footer {
@@ -58,6 +59,7 @@ a {
   justify-content: space-between;
   padding: 16px;
   background-color: #eeeeee;
+  flex-shrink: 0; /*necessary?*/
 }
 
 .left-links, .right-links {
@@ -66,4 +68,9 @@ a {
 }
 
 
-/*  */
+/* Arrangement within content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
