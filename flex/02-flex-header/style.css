@@ -20,6 +20,7 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
+  /* the solution also has margin: 0 but I don't think it's needed */
   gap: 15px;
 }
 
