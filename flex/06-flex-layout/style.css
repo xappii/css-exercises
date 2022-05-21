@@ -28,17 +28,8 @@ input {
 
 /* Following is mine */
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
-}
 
-.left-links, .right-links {
-  display: flex;
-  gap: 16px;
-}
-
+/* Fix ul and li default properties */
 ul {
   list-style: none;
   padding: 0;
@@ -49,3 +40,26 @@ a {
   text-decoration: none;
   color: rgb(97, 97, 97);
 }
+
+
+/* Arrangement within header and footer */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #eeeeee;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
+
+
+/*  */
