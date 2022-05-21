@@ -17,6 +17,14 @@ body {
   align-items: center;
 }
 
+.header-left {
+  display: flex;
+}
+
+.header-right {
+  display: flex;
+}
+
 .links {
   padding: 0;
   margin: 0;
