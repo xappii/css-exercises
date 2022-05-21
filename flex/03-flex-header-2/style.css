@@ -15,14 +15,13 @@ body {
   padding: 8px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.header-left {
+.header-left, .header-right {
   display: flex;
-}
-
-.header-right {
-  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
 .links {
@@ -30,6 +29,7 @@ body {
   margin: 0;
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 .profile-image {
