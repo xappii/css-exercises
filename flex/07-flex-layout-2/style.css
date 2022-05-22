@@ -66,8 +66,19 @@ ul a {
   font-size: 24px;
 }
 
+/* following is mine */
+.card-container {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  /* following is mine */
+  max-width: 300px;
+  padding: 16px;
 }
