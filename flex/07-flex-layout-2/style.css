@@ -8,6 +8,12 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  /* following is mine */
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
