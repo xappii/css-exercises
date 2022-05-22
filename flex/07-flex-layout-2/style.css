@@ -4,10 +4,10 @@ body {
   min-height: 100vh;
   /* following is mine */
   /* arranges body, maybe change later */
-  height: 100vh; 
+  height: 100vh; /* not needed in solution */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; /* not needed in solution */
 }
 
 .header {
