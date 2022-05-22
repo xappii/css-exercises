@@ -26,9 +26,34 @@ body {
   align-items: center;
 }
 
+/* following is mine */
+.container {
+  display: flex;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
+  /* following is mine */
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+/* following is mine */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* following is mine */
+ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .card {
